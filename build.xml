@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project DrillXerces">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="../DrillXerces.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="DrillXerces"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="bin/"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/xerces/resolver.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/xerces/xml-apis.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/xerces/serializer.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/xerces/xercesImpl.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/jdom-1.1.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/saxon9B-xpath.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/saxon9B.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/saxon9B-s9api.jar"/>
+        </jar>
+    </target>
+</project>
