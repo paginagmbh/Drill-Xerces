@@ -5,10 +5,11 @@ Fun implementation of [Apaches free Xerces XML Parser](http://xerces.apache.org/
 
 Drill-Xerces tends to get angry if users don't follow his validation hints...
 
+
 ----
 
 Be Careful!
-----
+=====
 **If you make Drill-Xerces too angry, he'll take over your document...**
 
 **Damage to your document is predicted if you don't fix validation errors in time!**
@@ -17,8 +18,12 @@ Be Careful!
 
 ----
 
+
 Usage
-----
+=====
+
+Commandline:
+
 `java -jar DrillXerces.jar yourDocument.xml`
 
 or integrate in [oXygen](http://www.oxygenxml.com) as a "Custom Validation Engine":
