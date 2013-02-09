@@ -13,10 +13,10 @@
             <zipfileset excludes="META-INF/*.SF" src="lib/xerces/xml-apis.jar"/>
             <zipfileset excludes="META-INF/*.SF" src="lib/xerces/serializer.jar"/>
             <zipfileset excludes="META-INF/*.SF" src="lib/xerces/xercesImpl.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="lib/jdom-1.1.2.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="lib/saxon9B-xpath.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="lib/saxon9B.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="lib/saxon9B-s9api.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/JDOM/jdom-1.1.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/saxon9B/saxon9-xpath.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/saxon9B/saxon9.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="lib/saxon9B/saxon9-s9api.jar"/>
         </jar>
     </target>
 </project>
