@@ -34,4 +34,4 @@ or integrate in [oXygen](http://www.oxygenxml.com) as a "Custom Validation Engin
 * *Command line arguments:*
  * *XSD:* `${cf}`
 
-![Alt text](http://images.all-free-download.com/images/graphiclarge/pink_flower_97301.jpg)
+<!-- ![Alt text](http://images.all-free-download.com/images/graphiclarge/pink_flower_97301.jpg) -->
