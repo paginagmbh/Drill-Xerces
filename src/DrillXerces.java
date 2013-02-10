@@ -9,20 +9,20 @@ import org.xml.sax.SAXParseException;
 
 
 /**
-  * DrillXerces
-  * 
-  * Fun implementation of Apaches free Xerces XML Parser ( http://xerces.apache.org/xerces-j/ )
-  * Drill-Xerces tends to get angry if users don't follow his validation hints...
-  * 
-  * BE CAREFUL! If you make Drill-Xerces too angry, he'll take over your document...
-  * Damage to your document is predicted! Use at your own risk!
-  * 
-  * 
-  * @author		Tobias Fischer / Marko Hedler / Nico Kutscherauer
-  * @link		http://www.github.com/paginagmbh/
-  * @version	1.0
-  * @date 		2013-02-09
-  */
+ * DrillXerces
+ * 
+ * Fun implementation of Apaches free Xerces XML Parser ( http://xerces.apache.org/xerces-j/ )
+ * Drill-Xerces tends to get angry if users don't follow his validation hints...
+ * 
+ * BE CAREFUL! If you make Drill-Xerces too angry, he'll take over your document...
+ * Damage to your document is predicted! Use at your own risk!
+ * 
+ * 
+ * @author		Tobias Fischer / Marko Hedler / Nico Kutscherauer
+ * @link		http://www.github.com/paginagmbh/
+ * @version		1.0
+ * @date		2013-02-09
+ */
 public class DrillXerces {
 
 	private static String inputDocument;
@@ -164,10 +164,10 @@ public class DrillXerces {
 
 	protected static void throwExplicitMessage(int errorCounter) {
 		if(errorCounter == 1) {
-			System.err.println("          Small mistakes happen from time to time...");
+			System.err.println("          Small mistakes happen from time to time... ;-)");
 
 		} else if(errorCounter == 2) {
-			System.err.println("          You did this wrong last time. Time to fix it!");
+			System.err.println("          You also did this wrong last time. Time to fix it – you can do it! :)");
 
 		} else if(errorCounter == 3) {
 			System.err.println("          Dude! Third time no fix – you definately should book an XML course");
@@ -180,11 +180,11 @@ public class DrillXerces {
 			System.err.println("          Damn it! Last chance! Fix this shit or I'll get really angry!");
 
 		} else if(errorCounter == 6) {
-			System.err.println("          This will have concequences! Take this!");
+			System.err.println("          This will have concequences! TAKE THIS, you noob!");
 			XSLTdestruction = 1;
 
 		} else if(errorCounter == 7) {
-			System.err.println("          Really?! Funny symbols in your document don't bother you? Rot in hell!");
+			System.err.println("          REALLY?! Funny symbols in your document don't bother you? ROT IN HELL!");
 			System.err.println("          I'm outta here...");
 			XSLTdestruction = 2;
 
