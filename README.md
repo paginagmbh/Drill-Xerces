@@ -1,3 +1,8 @@
+![Alt text](https://raw.github.com/paginagmbh/Drill-Xerces/master/xmlprague_demojam_slide1.jpg)
+
+----
+
+
 Drill-Xerces
 ============
 
@@ -34,4 +39,6 @@ or integrate in [oXygen](http://www.oxygenxml.com) as a "Custom Validation Engin
 * *Command line arguments:*
  * *XSD:* `${cf}`
 
-<!-- ![Alt text](http://images.all-free-download.com/images/graphiclarge/pink_flower_97301.jpg) -->
+----
+
+![Alt text](https://raw.github.com/paginagmbh/Drill-Xerces/master/xmlprague_demojam_slide2.jpg)
