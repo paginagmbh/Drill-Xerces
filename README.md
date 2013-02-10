@@ -33,3 +33,5 @@ or integrate in [oXygen](http://www.oxygenxml.com) as a "Custom Validation Engin
 * *Associated editors:* XML-Editor
 * *Command line arguments:*
  * *XSD:* `${cf}`
+
+![Alt text](http://images.all-free-download.com/images/graphiclarge/pink_flower_97301.jpg)
