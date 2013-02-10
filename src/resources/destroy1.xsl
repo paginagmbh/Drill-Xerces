@@ -26,7 +26,11 @@
 		<xsl:variable name="text" select="for $ch in string-to-codepoints(.) return codepoints-to-string($ch)"/>
 		
 		<xsl:variable name="stars" select="('☆','☹')"/>
-		<xsl:variable name="textmod" select="for $i in (1 to count($text)) return if($i mod 20 = 0) then $stars[1] else  $text[$i]"/>
+		<xsl:variable name="textmod" select="for $i in (1 to count($text))
+			return
+				if($i mod 10 = 0)
+					then ( if($i mod 20 = 0) then $stars[1] else $stars[2] )
+					else $text[$i]"/>
 		
 		<xsl:value-of select="string-join($textmod,'')"/>
 		
